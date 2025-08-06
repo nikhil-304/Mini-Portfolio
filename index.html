@@ -8,8 +8,8 @@
     <title>Mini Portfolio - Nikhil Shrivastava</title>
 </head>
 <body>
-    <div class="main w-full h-screen bg-white">
-        <div class="container relative h-screen mx-auto">
+    <div class="main w-full min-h-screen bg-white">
+    <div class="container relative min-h-[90vh] mx-auto">
             <div class="navbar w-full px-4 py-6 flex items-center justify-between">
                 <h3 class="font-bold">nikhil.designs</h3>
                 <div class="hidden lg:flex links flex gap-10">
@@ -26,10 +26,51 @@
                 </div>
                 <h3 class="font-semibold text-xl mt-4">Hi, I'm Nikhil Shrivastava👋</h3>
                 <h1 class="w-3/4 tracking-tighter text-4xl font-bold text-center leading-none mt-4">Building digital products, brands, and experiences.</h1>
-                <p class="mt-5 text-center w-3/4 tracking-tighter">a <span class="font-bold">Product Designer</span> and a <span class="font-bold ">Visual Developer</span> in SF. <br> I specialize in UI/UX Design, Responsive Web Design, and Visual Development.</p>
+                <p class="mt-5 text-center w-3/4 tracking-tighter">a <span class="font-bold">Product Designer</span> and a <span class="font-bold ">Visual Developer</span> in IN. <br> I specialize in UI/UX Design, Responsive Web Design, and Visual Development.</p>
                 <button onclick="window.open('https://www.linkedin.com/in/nikhil304/')" class="px-4 py-2 bg-black text-white rounded-full font-semibold tracking-tight mt-6 lg:px-6 lg:py-3">Connect With Me</button>
             </div>
         </div>
+        <!-- My Projects Section -->
+    <section class="projects w-full pt-8 pb-16 bg-gray-50">
+            <div class="max-w-5xl mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-10">My Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project Card 1 -->
+                    <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center">
+                        <!-- Project Image (replace src with your image) -->
+                        <img src="https://placehold.co/200x120?text=Project+Image" alt="Portfolio Website" class="w-full h-32 object-cover rounded-xl mb-4" />
+                        <div class="w-16 h-16 bg-fuchsia-100 rounded-full flex items-center justify-center mb-4">
+                            <i class="ri-layout-4-line text-2xl text-fuchsia-500"></i>
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Portfolio Website</h3>
+                        <p class="text-gray-600 text-center mb-4">A personal portfolio website showcasing my skills, experience, and projects. Built with Tailwind CSS for a modern, responsive design.</p>
+                        <a href="#" class="text-fuchsia-500 font-semibold hover:underline">View Project</a>
+                    </div>
+                    <!-- Project Card 2 -->
+                    <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center">
+                        <!-- Project Image (replace src with your image) -->
+                        <img src="https://placehold.co/200x120?text=Project+Image" alt="Dashboard UI" class="w-full h-32 object-cover rounded-xl mb-4" />
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                            <i class="ri-dashboard-3-line text-2xl text-blue-500"></i>
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">Dashboard UI</h3>
+                        <p class="text-gray-600 text-center mb-4">A clean and intuitive dashboard interface for managing data and analytics. Focused on usability and visual clarity.</p>
+                        <a href="#" class="text-blue-500 font-semibold hover:underline">View Project</a>
+                    </div>
+                    <!-- Project Card 3 -->
+                    <div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center">
+                        <!-- Project Image (replace src with your image) -->
+                        <img src="https://placehold.co/200x120?text=Project+Image" alt="UI Kit" class="w-full h-32 object-cover rounded-xl mb-4" />
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                            <i class="ri-paint-brush-line text-2xl text-green-500"></i>
+                        </div>
+                        <h3 class="font-semibold text-lg mb-2">UI Kit</h3>
+                        <p class="text-gray-600 text-center mb-4">A set of reusable UI components designed for rapid prototyping and consistent design across projects.</p>
+                        <a href="#" class="text-green-500 font-semibold hover:underline">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
 </html>
